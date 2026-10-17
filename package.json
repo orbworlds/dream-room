@@ -1,0 +1,20 @@
+{
+  "name": "dream-room",
+  "private": true,
+  "description": "Decorate a small room however you like. Add furniture, move it around, switch between day and night.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://orbworlds.com/orb/dream-room",
+  "scripts": {
+    "start": "node orb-kit/bin/orb.mjs dev .",
+    "share": "node orb-kit/bin/orb.mjs share",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "three": "^0.186.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
